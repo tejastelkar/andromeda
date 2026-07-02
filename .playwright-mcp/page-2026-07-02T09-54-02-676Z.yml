@@ -1,0 +1,26 @@
+- generic [ref=e3]:
+  - generic [ref=e4]:
+    - button "Home" [ref=e5] [cursor=pointer]:
+      - img [ref=e6]
+    - button "Now Playing" [ref=e8] [cursor=pointer]:
+      - img [ref=e9]
+    - button "Playlist" [ref=e12] [cursor=pointer]:
+      - img [ref=e13]
+    - button "Experiences" [ref=e17] [cursor=pointer]:
+      - img [ref=e18]
+    - button "Search" [ref=e20] [cursor=pointer]:
+      - img [ref=e21]
+  - generic [ref=e24]:
+    - img [ref=e26]
+    - generic [ref=e28]: ™
+  - generic [ref=e30]:
+    - heading "UNWIND WITH MUSIC THAT BREATHES" [level=1] [ref=e31]
+    - link "Open Playlist" [ref=e33] [cursor=pointer]:
+      - /url: "#"
+  - generic [ref=e40]:
+    - button "Experiences" [ref=e41] [cursor=pointer]:
+      - img [ref=e42]
+    - button "Playlist" [ref=e44] [cursor=pointer]:
+      - img [ref=e45]
+    - button "Download" [ref=e53] [cursor=pointer]:
+      - img [ref=e54]

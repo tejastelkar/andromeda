@@ -1,0 +1,72 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e8]:
+      - link [ref=e9] [cursor=pointer]:
+        - /url: ./
+      - link [ref=e11] [cursor=pointer]:
+        - /url: ./playlist/night-cloud-forest
+      - link [ref=e13] [cursor=pointer]:
+        - /url: ./playlist
+      - link [ref=e15] [cursor=pointer]:
+        - /url: ./experience
+      - button "Search Icon" [ref=e20] [cursor=pointer]:
+        - img [ref=e21]
+    - generic [ref=e23]:
+      - generic [ref=e24]:
+        - img [ref=e27]
+        - paragraph [ref=e30]:
+          - generic [ref=e32]: ™
+      - generic [ref=e36]:
+        - generic [ref=e41]:
+          - generic [ref=e46] [cursor=pointer]: INHALE
+          - paragraph [ref=e60]:
+            - generic [ref=e61]:
+              - generic [ref=e62]: U
+              - generic [ref=e63]: "n"
+              - generic [ref=e64]: w
+              - generic [ref=e65]: i
+              - generic [ref=e66]: "n"
+              - generic [ref=e67]: d
+            - generic [ref=e68]:
+              - generic [ref=e69]: w
+              - generic [ref=e70]: i
+              - generic [ref=e71]: t
+              - generic [ref=e72]: h
+            - generic [ref=e73]:
+              - generic [ref=e74]: m
+              - generic [ref=e75]: u
+              - generic [ref=e76]: s
+              - generic [ref=e77]: i
+              - generic [ref=e78]: c
+            - generic [ref=e79]:
+              - generic [ref=e80]: t
+              - generic [ref=e81]: h
+              - generic [ref=e82]: a
+              - generic [ref=e83]: t
+            - generic [ref=e84]:
+              - generic [ref=e85]: b
+              - generic [ref=e86]: r
+              - generic [ref=e87]: e
+              - generic [ref=e88]: a
+              - generic [ref=e89]: t
+              - generic [ref=e90]: h
+              - generic [ref=e91]: e
+              - generic [ref=e92]: s
+          - link "Open Playlist" [ref=e94] [cursor=pointer]:
+            - /url: ./playlist
+            - paragraph [ref=e96]: Open Playlist
+        - generic [ref=e97]:
+          - generic [ref=e98]:
+            - img [ref=e103] [cursor=pointer]
+            - generic: Playlist
+          - generic [ref=e105]:
+            - img [ref=e110] [cursor=pointer]
+            - generic: Experiences
+          - generic [ref=e112]:
+            - generic: Download
+  - link "Create a free website with Framer, the website builder loved by startups, designers and agencies." [ref=e117] [cursor=pointer]:
+    - /url: https://www.framer.com
+    - paragraph [ref=e122]: Create a free website with Framer, the website builder loved by startups, designers and agencies.
+  - img [ref=e124]
+  - img [ref=e129]
+  - img [ref=e135]
