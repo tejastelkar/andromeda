@@ -365,7 +365,7 @@ function AuthButton() {
             </span>
             <div className="user-profile-avatar">
               {user.photoURL ? (
-                <img src={user.photoURL} alt="Profile" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+                <img src={user.photoURL} alt="Profile" referrerPolicy="no-referrer" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
               ) : (
                 <div style={{ width: "100%", height: "100%", background: "linear-gradient(135deg,#fff 0%,#aaa 100%)", display: "flex", alignItems: "center", justifyContent: "center", color: "#000", fontSize: "13px", fontWeight: 700 }}>
                   {(user.displayName || user.email || "U")[0].toUpperCase()}
@@ -402,7 +402,7 @@ function AuthButton() {
                   <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
                     <div style={{ width: "38px", height: "38px", borderRadius: "50%", overflow: "hidden", border: "1px solid rgba(255,255,255,0.1)", flexShrink: 0 }}>
                       {user.photoURL ? (
-                        <img src={user.photoURL} alt="Profile" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+                        <img src={user.photoURL} alt="Profile" referrerPolicy="no-referrer" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
                       ) : (
                         <div style={{ width: "100%", height: "100%", background: "linear-gradient(135deg,#fff 0%,#aaa 100%)", display: "flex", alignItems: "center", justifyContent: "center", color: "#000", fontSize: "15px", fontWeight: 700 }}>
                           {(user.displayName || user.email || "U")[0].toUpperCase()}
