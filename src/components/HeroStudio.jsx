@@ -516,6 +516,7 @@ export default function HeroStudio({ children }) {
           alignItems: "center",
           justifyContent: "space-between",
           padding: "0 20px",
+          gap: "16px",
         }}
       >
         {/* Left spacer col — mirrors right col so logo is truly centered */}
